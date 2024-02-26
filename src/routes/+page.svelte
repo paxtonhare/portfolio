@@ -10,42 +10,42 @@
       customer: "Bestomer Inc.",
       title: "Revolutionizing CRM",
       description: "Hired as employee 10 to help realize Bestomer's vision.",
-      href: "/work/bestomer",
+      href: "work/bestomer",
       linkTitle
     },
     {
       customer: "Wave Fitness",
       title: "Swimming Fitness Machine",
       description: "Created the UI for the Wave swimming machine.",
-      href: "/work/wave",
+      href: "work/wave",
       linkTitle
     },
     {
       customer: "Confluent Inc.",
       title: "Making Kafka 10x Better",
       description: "Hired to develop Accelerators for the Customer Innovation team.",
-      href: "/work/confluent",
+      href: "work/confluent",
       linkTitle
     },
     {
       customer: "Hare Squared, LLC",
       title: "My Side Hustle App Development Company",
       description: "One of my apps was in the top ten in the App Store.",
-      href: "/work/haresquared",
+      href: "work/haresquared",
       linkTitle
     },
     {
       customer: "MarkLogic",
       title: "The Single Platform that Unlocks Data Agility",
       description: "Created the flagship product Data Hub Framework.",
-      href: "/work/marklogic",
+      href: "work/marklogic",
       linkTitle
     },
     {
       customer: "L3 Harris",
       title: "Government and Defense Contractor",
       description: "A long time ago... Created some cool stuff here.",
-      href: "/work/harris",
+      href: "work/harris",
       linkTitle
     }
   ];
