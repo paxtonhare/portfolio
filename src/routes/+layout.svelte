@@ -3,6 +3,7 @@
 	import { Avatar, DarkMode } from 'flowbite-svelte';
   import { Navbar, NavBrand } from 'flowbite-svelte';
   import { base } from '$app/paths';
+  import Analytics from '$lib/analytics.svelte';
 
   let navClass = 'bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800';
   let navDivClass = 'flex flex-wrap justify-between items-center mx-auto max-w-screen-xl';
@@ -11,6 +12,7 @@
   const year = new Date().getFullYear();
 </script>
 
+<Analytics />
 <header>
   <Navbar let:hidden let:toggle fluid={false} {navClass} {navDivClass}>
     <NavBrand href="{base}">
