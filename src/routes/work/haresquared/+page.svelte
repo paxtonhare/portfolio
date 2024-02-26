@@ -1,5 +1,6 @@
 <script lang="ts">
   import { Avatar } from "flowbite-svelte";
+  import { base } from "$app/paths";
 </script>
 
 <section class="relative">
@@ -14,7 +15,7 @@
   <div class="py-8 px-4 mx-auto max-w-screen-md">
     <div class="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400 items-center flex flex-col">
       <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">IOS Top 10: Weinermoji</h2>
-      <Avatar src="/weinermoji.webp" alt="Weinermoji App Icon" size="xl"/>
+      <Avatar src="{base}/weinermoji.webp" alt="Weinermoji App Icon" size="xl"/>
       <p class="mt-4">
         I created an <a href="https://apps.apple.com/ca/app/weinermoji-dachshund-emoji-stickers/id1186997786" class="underline">emoji app all about Dachshunds</a>. It was a simple app that allowed you to send Dachshund emojis to your friends. It was a top 10 app in the App Store for a few weeks.
       </p>

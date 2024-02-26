@@ -1,5 +1,6 @@
 <script lang="ts">
   import { Avatar } from "flowbite-svelte";
+  import { base } from "$app/paths";
 </script>
 
 <section class="relative">
@@ -29,7 +30,7 @@
     <div class="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
     <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Stat Scanner</h2>
     <div class="flex items-center justify-center">
-      <Avatar src="/statscanner.gif" alt="Stat Logo" size="lg"/>
+      <Avatar src="{base}/statscanner.gif" alt="Stat Logo" size="lg"/>
     </div>
     <p class="mb-4">
       Shortly after joining Harris I was randomly assigned to an R&D project. This rag tag group of engineers had created a vulnerability
@@ -58,7 +59,7 @@
     <div class="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
     <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Secnet 11</h2>
     <div class="flex items-center justify-center">
-      <Avatar src="/secnet.jpg" alt="Secnet Logo" size="lg"/>
+      <Avatar src="{base}/secnet.jpg" alt="Secnet Logo" size="lg"/>
     </div>
     <p class="mb-4">
       I briefly left Harris to join a doomed startup. After the startup failed I contacted my old team from Harris and they hired me back. They had

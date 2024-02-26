@@ -1,6 +1,10 @@
+<script>
+  import { base } from "$app/paths";
+</script>
+
 <section class="relative">
   <div class="flex flex-col gap-4 justify-center items-center my-8">
-    <img src="/bestomer.png" alt="Bestomer Logo" class="h-32 " />
+    <img src="{base}/bestomer.png" alt="Bestomer Logo" class="h-32 " />
     <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
       <h4 class="mb text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">Revolutionizing CRM</h4>
     </div>

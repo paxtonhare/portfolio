@@ -1,6 +1,10 @@
+<script>
+  import { base } from "$app/paths";
+</script>
+
 <section class="relative">
   <div class="flex flex-col gap-8 justify-center items-center my-8">
-    <img src="/ML-Logo-1.png" alt="MarkLogic" class="h-8 " />
+    <img src="{base}/ML-Logo-1.png" alt="MarkLogic" class="h-8 " />
     <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
       <h4 class="mb text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">The Single Platform that Unlocks Data Agility</h4>
     </div>
@@ -25,7 +29,7 @@
         All development for MarkLogic Data Hub was done in the open on Github. Even today, 4 years since I left MarkLogic, I'm still historically <a class="underline" href="https://github.com/marklogic/marklogic-data-hub/graphs/contributors">one of the top contributors.</a>
       </p>
       <a href="https://github.com/marklogic/marklogic-data-hub/graphs/contributors">
-        <img src="/dhf-contribs.png" alt="Data Hub Framework contributors" class="w-full rounded-lg" />
+        <img src="{base}/dhf-contribs.png" alt="Data Hub Framework contributors" class="w-full rounded-lg" />
       </a>
     </div>
   </div>

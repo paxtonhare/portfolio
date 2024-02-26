@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from "$app/paths";
 </script>
 
 <section class="relative">
@@ -54,7 +55,7 @@
       <p class="mb-4">
         Eventually the UI will show you racing against opponents in competitive online mode. To ensure the UI could accommodate this I decided to write the UI in the Unity Game engine in c#.
       </p>
-      <img src="/edge.png" alt="Edge UI" />
+      <img src="{base}/edge.png" alt="Edge UI" />
     </div>
   </div>
 </section>
