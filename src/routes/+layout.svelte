@@ -27,4 +27,3 @@
 <section class="relative flex items-center justify-center mt-8">
   <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© {year} Paxton Hare. All Rights Reserved.</span>
 </section>
-H
